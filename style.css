@@ -61,7 +61,7 @@ p {
 
 .desc {
   font-size: 0.9rem;
-  color: #bdbdbd; /* neutral gray */
+  color: #f2f2f2;
 }
 
 /* -------- Lists -------- */
@@ -78,8 +78,8 @@ li {
 /* -------- Links -------- */
 
 a {
-  color: #e6e6e6; /* slightly brighter than body text */
-  text-decoration: none;
+  color: #f2f2f2; /* slightly brighter than body text */
+  text-decoration: bold;
 }
 
 a:hover {
