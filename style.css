@@ -1,0 +1,88 @@
+/* -------- Base -------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background-color: #1a1a1a; /* ENDESGA near-black */
+  color: #e4e4e4;           /* soft paper white */
+  line-height: 1.6;
+}
+
+/* -------- Layout -------- */
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.content {
+  background-color: #111111; /* deeper neutral black */
+  padding: 32px;
+}
+
+/* -------- Headings -------- */
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+h2 {
+  margin-top: 32px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+/* -------- Avatar -------- */
+
+.avatar {
+  display: block;
+  margin: 16px auto 24px;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  background-color: #111111;
+}
+
+/* -------- Text -------- */
+
+p {
+  margin: 12px 0;
+}
+
+.desc {
+  font-size: 0.9rem;
+  color: #bdbdbd; /* neutral gray */
+}
+
+/* -------- Lists -------- */
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+/* -------- Links -------- */
+
+a {
+  color: #c9c9c9; /* slightly brighter than body text */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
