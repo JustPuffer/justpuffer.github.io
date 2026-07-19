@@ -1,79 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>JustPuffer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="page">
-      <main class="content">
-        <h1>Hello, I’m JustPuffer</h1>
-
-        <img class="avatar" src="images/avatar.png" alt="Personal avatar">
-
-        <p>
-          I enjoy making video games in my free time, as well as working on other
-          programming projects in general.
-        </p>
-
-        <h2>Info</h2>
-        <ul>
-          <li>
-            <strong>About me:</strong>
-            <span class="desc">
-              I’m an aspiring developer from the Czech Republic, primarily focused
-              on game development, with a growing interest in cybersecurity. I
-              work with C, C#, GML, HTML, CSS, JavaScript/TypeScript, and Python,
-              and I enjoy continuously learning new programming skills.
-            </span>
-          </li>
-          <li>
-            <strong>Current project:</strong>
-            <span class="desc">
-              I am currently working on a remake of one of the first games
-              I ever made using GameMaker, it's in active development and the
-              current name in use is
-              <a href="https://justpufferfish.itch.io/inkboy">
-                <strong>Inkboy</strong>
-              </a>.
-            </span>
-          </li>
-        </ul>
-
-        <h2>Where to find me</h2>
-        <ul>
-          <li>
-            Most of my work can be found on
-            <strong><a href="https://justpufferfish.itch.io/">itch.io</a></strong>
-            and
-            <strong><a href="https://github.com/JustPuffer">GitHub</a></strong>.
-          </li>
-          <li>
-            You can reach me on Discord: <strong>@JustPufferfish</strong>
-          </li>
-          <li>
-            My taste in games is documented on
-            <strong><a href="https://steamcommunity.com/profiles/76561198338371669/">Steam</a></strong>.
-          </li>
-        </ul>
-
-        <h2>Why I started with game development</h2>
-        <p>
-          Games have fascinated me from the very beginning. At first, I only
-          played them, but over time I realized that creating games is far more
-          fulfilling.
-        </p>
-        <p>
-          I started with game development when I was 12 years old, and it has
-          kept me hooked ever since.
-        </p>
-        <p>
-          I mainly use GameMaker because of its simplicity, which is what allowed
-          me to get started at such a young age.
-        </p>
-      </main>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JustPuffer — Game Developer</title>
+  <meta name="description" content="JustPuffer - Game developer from Czech Republic specializing in game development and cybersecurity">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">JustPuffer</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#connect">Connect</a>
+      </div>
     </div>
-  </body>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="hero-subtitle">Hello, I'm</p>
+        <h1 class="hero-title">JustPuffer</h1>
+        <p class="hero-tagline">Game Developer & Security Enthusiast</p>
+        <div class="hero-meta">
+          <span class="meta-item">Czech Republic</span>
+          <span class="meta-sep">·</span>
+          <span class="meta-item">Age 15</span>
+          <span class="meta-sep">·</span>
+          <span class="meta-item">RAFION Studios</span>
+        </div>
+      </div>
+      <div class="hero-avatar">
+        <img src="images/avatar.png" alt="JustPuffer avatar">
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <p>
+          I'm an aspiring developer from the Czech Republic, primarily focused on
+          game development with a growing interest in cybersecurity. I work with
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">C#</span>
+          <span class="skill-tag">GML</span>
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">TypeScript</span>
+          <span class="skill-tag">Python</span>
+        </p>
+        <p>
+          I started with game development when I was 12 years old, and it has kept
+          me hooked ever since. I mainly use GameMaker because of its simplicity,
+          which is what allowed me to get started at such a young age. Games have
+          fascinated me from the very beginning — I realized that creating games
+          is far more fulfilling than playing them.
+        </p>
+        <p>
+          Beyond game development, I'm exploring cybersecurity and continuously
+          learning new programming skills to expand my toolkit.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">ERROR: COLOR DETECTED</h3>
+              <p class="project-meta">
+                <span class="project-role">Lead Developer · Designer · Team Leader · Coordinator</span>
+                <span class="project-status">Released</span>
+              </p>
+            </div>
+          </div>
+          <p class="project-desc">
+            You wake up in a strange testing facility where everything is black and
+            white. The walls, the floor, the rooms, all of it looks drained and
+            lifeless. Then you notice something weird. You are leaking color.
+            Every step leaves a bright streak behind you. The place reacts to it,
+            like the color is not supposed to be here. Your goal is simple. Solve puzzles.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">GameMaker</span>
+            <span class="tech-tag">Puzzle</span>
+            <span class="tech-tag">2D</span>
+          </div>
+          <div class="project-links">
+            <a href="https://rakon150.itch.io/error-color-detected" class="project-link" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View on itch.io
+            </a>
+          </div>
+          <p class="project-team">
+            Made with <strong>RAFION Studios</strong> — a team of three 15-year-old friends
+            who poured time, energy, and late nights into this project.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">Inkboy</h3>
+              <p class="project-meta">
+                <span class="project-role">Developer</span>
+                <span class="project-status in-progress">In Development</span>
+              </p>
+            </div>
+          </div>
+          <p class="project-desc">
+            A remake of one of the first games I ever made using GameMaker. This
+            is an active project where I'm reimagining the original concept with
+            improved mechanics, visuals, and design learned over years of development.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">GameMaker</span>
+            <span class="tech-tag">Platformer</span>
+            <span class="tech-tag">2D</span>
+          </div>
+          <div class="project-links">
+            <a href="https://justpufferfish.itch.io/inkboy" class="project-link" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View on itch.io
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section" id="connect">
+      <h2 class="section-title">Connect With Me</h2>
+      <div class="connect-grid">
+        <a href="https://justpufferfish.itch.io/" class="connect-card" target="_blank" rel="noopener">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M20.4 14.5L16 10 4 20"/></svg>
+          <span class="connect-label">itch.io</span>
+          <span class="connect-handle">justpufferfish</span>
+        </a>
+        <a href="https://github.com/JustPuffer" class="connect-card" target="_blank" rel="noopener">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+          <span class="connect-label">GitHub</span>
+          <span class="connect-handle">JustPuffer</span>
+        </a>
+        <a href="https://steamcommunity.com/profiles/76561198338371669/" class="connect-card" target="_blank" rel="noopener">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8v8"/></svg>
+          <span class="connect-label">Steam</span>
+          <span class="connect-handle">Profile</span>
+        </a>
+        <div class="connect-card discord">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+          <span class="connect-label">Discord</span>
+          <span class="connect-handle">@JustPufferfish</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 - JustPuffer</p>
+    <p class="footer-credits">Website inspired by <a href="https://theahmadfaraz.com/" target="_blank" rel="noopener">theahmadfaraz.com</a></p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
 </html>
